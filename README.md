@@ -1,6 +1,7 @@
 **JobVerse a Job-Portal Website**
 
 **Description:- **
+
 This project consists of a frontend and backend component. Our Job Portal App connects job seekers with the latest opportunities, enabling them to browse, apply, and track applications effortlessly. Employers can post jobs, review candidates, and manage hiring efficiently through a streamlined dashboard. With real-time notifications and a user-friendly interface, finding the perfect match has never been easier.
 
 **Table of Contents**
