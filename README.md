@@ -1,9 +1,9 @@
-# JobVerse-a-Job-Portal-Website
+JobVerse a Job-Portal Website
 
-## Description
+**Description**
 This project consists of a frontend and backend component. Our Job Portal App connects job seekers with the latest opportunities, enabling them to browse, apply, and track applications effortlessly. Employers can post jobs, review candidates, and manage hiring efficiently through a streamlined dashboard. With real-time notifications and a user-friendly interface, finding the perfect match has never been easier.
 
-**## Table of Contents**
+**Table of Contents**
 - Features
 - Technologies Used
 - Installation
@@ -23,7 +23,7 @@ This project consists of a frontend and backend component. Our Job Portal App co
 - Dynamic routing with React Router
 - Styled with Tailwind CSS
 
-**## Technologies Used**
+**Technologies Used**
 - **Backend:**
   - Node.js
   - Express
@@ -39,14 +39,14 @@ This project consists of a frontend and backend component. Our Job Portal App co
   - Axios
   - Tailwind CSS
 
-## Installation
+**Installation**
 
 1. **Clone the repository:**
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/ishansavaliya/JobVerse-a-Job-Portal-Website.git
    
 
 2. **Navigate to the project directory:**
-   cd your-repo-name
+   cd Job-Portal-Website
   
 
 3. **Set up the backend:**
@@ -60,9 +60,11 @@ This project consists of a frontend and backend component. Our Job Portal App co
    - Set up environment variables:  
      Create a `.env` file in the `backend` directory and add the following:
      
-     CLOUDINARY_URL=<your_cloudinary_url>
-     JWT_SECRET=<your_jwt_secret>
-     MONGODB_URI=<your_mongodb_uri>
+     MONGO_URI=<Your File>
+     SECRET_KEY=<Your File>
+     CLOUD_NAME=<Your File>
+     API_KEY=<Your File>
+     API_SECRET=<Your File>
      
 
 4. **Set up the frontend:**
@@ -73,22 +75,21 @@ This project consists of a frontend and backend component. Our Job Portal App co
      npm install
      
 
-**## Running the Project**
+**Running the Project**
 
-**### Backend**
+**Backend**
 - **Development Mode:**  
   Start the backend server in development mode using Nodemon:
   cd backend
   npm run dev
   
 
-**### Frontend**
+**Frontend**
 - **Development Mode:**  
   Start the frontend server using Vite:
   cd frontend
   npm run dev
   
-
-## License
+License
 This project is licensed under the ISC License.
 
