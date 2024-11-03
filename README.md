@@ -1,7 +1,6 @@
 **JobVerse a Job-Portal Website**
 
 **Description:- **
-
 This project consists of a frontend and backend component. Our Job Portal App connects job seekers with the latest opportunities, enabling them to browse, apply, and track applications effortlessly. Employers can post jobs, review candidates, and manage hiring efficiently through a streamlined dashboard. With real-time notifications and a user-friendly interface, finding the perfect match has never been easier.
 
 **Table of Contents**
@@ -41,7 +40,6 @@ This project consists of a frontend and backend component. Our Job Portal App co
   - Tailwind CSS
 
 **Installation**
-
 1. **Clone the repository:**
    git clone https://github.com/ishansavaliya/JobVerse-a-Job-Portal-Website.git
    
@@ -60,7 +58,7 @@ This project consists of a frontend and backend component. Our Job Portal App co
 
    - Set up environment variables:  
      Create a `.env` file in the `backend` directory and add the following:
-     
+  
      MONGO_URI=<Your File>
      SECRET_KEY=<Your File>
      CLOUD_NAME=<Your File>
@@ -77,7 +75,6 @@ This project consists of a frontend and backend component. Our Job Portal App co
      
 
 **Running the Project**
-
 **Backend**
 - **Development Mode:**  
   Start the backend server in development mode using Nodemon:
