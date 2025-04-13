@@ -1,0 +1,26 @@
+{
+  "name": "job-portal-app",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishansavaliya/JobVerse-a-Job-Portal-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishansavaliya/JobVerse-a-Job-Portal-Website/issues"
+  },
+  "homepage": "https://github.com/ishansavaliya/JobVerse-a-Job-Portal-Website#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
